@@ -43,7 +43,6 @@
 
 .container3 ul li{
     padding: 10px 20px;
-    position: relative;
     border-left: 1px solid black;
 
 }
@@ -55,12 +54,27 @@
 }
 
 
-
-
-
 .container3 .title {
     font-size: 40px;
     font-weight: bold;
     color:dimgray;
     width: 40%;
+}
+
+@media screen and (max-width: 767px) {
+
+    .container3{
+       display: block;
+    }
+  
+    .container3,.container3 ul {
+        flex-direction: column;
+    }
+
+    .container3 ul li{
+        border-bottom: 1px solid black;
+        border-left: none;
+    }
+
+    
 }
