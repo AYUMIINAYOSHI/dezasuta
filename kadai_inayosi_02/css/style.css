@@ -63,17 +63,30 @@
 
 @media screen and (max-width: 767px) {
 
+    /*
     .container3{
        display: block;
-    }
-  
-    .container3,.container3 ul {
-        flex-direction: column;
+       padding: 0 10px;
+       box-sizing: border-box;
+
     }
 
-    .container3 ul li{
+    */
+
+          
+    .container3,.container3 ul {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    .container3 ul li {
         border-bottom: 1px solid black;
         border-left: none;
+        width: 100%;
+        box-sizing: border-box;
     }
 
     
