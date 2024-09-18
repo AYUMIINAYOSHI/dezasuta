@@ -1,0 +1,246 @@
+@charset "utf-8";
+
+body {
+    background-color: #e8d9bf;
+    position: relative;
+    width:1000px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+    border: none;
+}
+
+header {
+    position: relative;
+}
+
+.header_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 7% 0 3%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.pc_nav ul {
+display: flex;
+gap: 54px;
+}
+
+.pc_nav ul li {
+    color: #FFFFFF;
+    width: 105px;
+    text-align: center;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ",
+    "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+    font-weight: bold;
+    }
+
+.pc_nav ul li:hover {
+    opacity: 0.7; 
+}    
+
+ .header_logo {
+        width: 226px;
+}
+
+
+
+.midashi {
+   text-align: center;
+   padding: 90px 0;
+
+}
+
+
+
+.midashi p.text1 {
+   font-size: 30px;
+}
+
+.midashi p.text2 {
+    font-size: 82px;
+    padding: 50px 0 25px 0;
+ }
+
+ .midashi p.text3 {
+    font-size: 23px;
+    line-height: 1.5em;
+ }
+
+ .aboutus {
+    display: flex;
+ }
+
+ .aboutus div img {
+    width: 500px;
+    height: 560px;
+    border-radius: 0 0 50px 0;
+ }
+
+ .aboutus ul {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 60px 30px 60px;
+    width: 40%;
+ }
+
+ .aboutus ul li img {
+    width: 273px;
+ }
+ 
+
+
+ .aboutus ul li.text1 {
+    font-size: 40px;
+    padding: 20px 0;
+ }
+
+ .aboutus ul li.text2 {
+    font-size: 16px;
+    line-height: 1.5em;
+ }
+
+ .menu {
+    display: flex;
+   justify-content: space-between;
+   padding-bottom: 150px;
+ }
+
+ .menu .item ul{
+ display: flex;
+ flex-direction: column;
+ width: 300px;
+ }
+
+ .menu .item ul li.img img{
+    width: 300px;
+    height: 200px;
+    border-radius: 0 50px 0 0;
+    position:absolute;
+
+}
+ 
+
+.menu ul li.title {
+color:red;
+font-size: 38px;
+position:relative;
+top:180px;
+left: 20px;
+}
+
+.menu ul li.text {
+    font-size: 17px;
+    position: relative;
+    top:190px;
+    left: 0px;
+
+    }    
+
+.menu_img {
+        text-align: center;
+    }
+
+.menu_img img{
+   height: 60px;
+   padding-top: 95px;
+   padding-bottom: 25px;
+}
+
+.gallery ul {
+    display: flex;
+}
+
+.event {
+    background-color: #FFFFFF;
+    border: 3px solid #4f260b;
+    margin: 0 15px;
+    padding: 30px 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.event ul {
+    display: flex;
+}
+
+.event ul li {
+padding: 5px;
+}
+
+.event ul li a {
+    border-bottom: 1px solid #4f260b;
+    }
+
+iframe{
+    border: none;
+    display: block;
+    height: 471px;
+}
+
+footer{
+    background-color: #FFFFFF;
+    position: absolute;
+    width: 1000px;
+    bottom: 0;
+
+}
+
+.foot {
+    display: flex;
+    padding: 70px 0px;
+}
+
+.foot ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.foot ul li{
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+.foot img {
+    width: 40%;
+}
+
+.foot_img {
+    text-align: right;
+    padding:5px 15px 0 0;
+}
+
+.kara {
+    background-color:#FFFFFF;
+    width: 33%;
+}
+.copy{
+    text-align:center;
+    font-size:16px;
+    padding-bottom: 70px;
+
+}
+
+.btn {
+    position: sticky;
+    z-index: 1;
+    left: 1000px;
+    bottom: 200px;
+    border: none;
+    background-color: none;
+}
+
+.btn img {
+    width: 100px;
+}
+
+
