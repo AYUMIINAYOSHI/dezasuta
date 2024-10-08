@@ -8,6 +8,7 @@ body {
     font-feature-settings: "palt";
     letter-spacing: 100;
 
+
 }
 
 img {
@@ -60,8 +61,7 @@ gap: 54px;
 
 .midashi {
    text-align: center;
-   padding: 90px 0;
-
+   padding:30px 30px 100px 30px;
 }
 
 
@@ -72,29 +72,28 @@ gap: 54px;
 
 .midashi p.text2 {
     font-size: 82px;
-    padding: 50px 0 25px 0;
+    padding: 60px 0 25px 0;
  }
 
  .midashi p.text3 {
     font-size: 23px;
-    line-height: 1.5em;
  }
 
  .aboutus {
     display: flex;
+    margin: 0 auto;
  }
 
  .aboutus div img {
-    width: 500px;
-    height: 560px;
     border-radius: 0 0 50px 0;
  }
 
  .aboutus ul {
     display: flex;
     flex-direction: column;
-    padding: 60px 60px 30px 60px;
-    width: 40%;
+    width: 50%;
+    padding: 50px;
+    box-sizing: border-box;
  }
 
  .aboutus ul li img {
@@ -114,22 +113,25 @@ gap: 54px;
  }
 
  .menu {
-    display: flex;
+   display: flex;
    justify-content: space-between;
-   padding-bottom: 150px;
+   padding-bottom: 10px;
+   text-align: center;
+   gap: 30px;
  }
 
  .menu .item ul{
  display: flex;
  flex-direction: column;
- width: 300px;
+
+
+ 
  }
 
  .menu .item ul li.img img{
-    width: 300px;
-    height: 200px;
+
     border-radius: 0 50px 0 0;
-    position:absolute;
+
 
 }
  
@@ -137,17 +139,13 @@ gap: 54px;
 .menu ul li.title {
 color:red;
 font-size: 38px;
-position:relative;
-top:180px;
-left: 20px;
+position: relative;
+top:-15px;
+left: -80px;
 }
 
 .menu ul li.text {
     font-size: 17px;
-    position: relative;
-    top:190px;
-    left: 0px;
-
     }    
 
 .menu_img {
@@ -155,8 +153,8 @@ left: 20px;
     }
 
 .menu_img img{
-   height: 60px;
-   padding-top: 95px;
+   height: 50px;
+   padding-top: 60px;
    padding-bottom: 25px;
 }
 
@@ -181,7 +179,12 @@ left: 20px;
     white-space: nowrap; /* 横幅のMAXに達しても改行しない */
     overflow: hidden; /* 溢れた部分を隠す */
     text-overflow: ellipsis; /* 「…」と省略 */
+    align-items: center;
+    
+}
 
+.event div {
+    width: fit-content;
 }
 
 .event ul {
@@ -224,7 +227,7 @@ footer{
     display: flex;
     padding: 70px 0px;
     max-width: 1000px;
-    text-align: left;
+    margin: 0 auto;
 }
 
 .foot ul{
@@ -239,18 +242,11 @@ footer{
 
 
 .foot img {
-    width: 40%;
+    width: 30%;
+    height: 30%;
 }
 
-.foot_img {
-    text-align: right;
-    padding:5px 15px 0 0;
-}
 
-.kara {
-    background-color:#FFFFFF;
-    width: 33%;
-}
 .copy{
     text-align:center;
     font-size:16px;
@@ -436,7 +432,6 @@ background: transparent;
 
     .menu {
         flex-direction: column;
-        gap: 220px;
         align-items: center;
     }
 
@@ -450,6 +445,7 @@ background: transparent;
         white-space: nowrap; /* 横幅のMAXに達しても改行しない */
         overflow: hidden; /* 溢れた部分を隠す */
         text-overflow: ellipsis; /* 「…」と省略 */
+        margin: 0 30px 0 30px;
 
     }
 
@@ -494,11 +490,26 @@ background: transparent;
     align-items: center;
  }
 
+
+
  .aboutus ul {
     width: 100%;
     align-items: center;
+    display: contents;
  }
 
+ 
+ .aboutus ul li.image1 {
+    order: -1;
+    padding-top: 60px;
+    padding-bottom: 25px;
+
+ }
+
+ .aboutus ul li.image1 img {
+   width: 200px;
+
+ }
 
 
  .pc_about {
@@ -532,13 +543,16 @@ background: transparent;
     padding:5px 15px 0 0;
 }
 
+.midashi {
+    padding:30px 30px 0 30px;
+}
+
 .midashi p.text2 {
-    font-size: 48px;
-    padding: 50px 0 25px 0;
+    font-size: 32px;
  }
 
  .midashi p.text1 {
-    font-size: 25px;
+    font-size: 18px;
  }
 
  .aboutus ul {
@@ -548,5 +562,18 @@ background: transparent;
  .aboutus ul {
   padding: 1em;
  }
+
+.aboutus ul li.text2 {
+  margin: 0 30px 0 30px;
+}
+
+ .midashi p.text3 {
+    font-size: 16px;
+ }
+
+
+ .menu ul li.text {
+    padding: 0 30px 0 30px;
+    }    
 
 }
