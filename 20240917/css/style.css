@@ -6,7 +6,7 @@ body {
     max-width:1000px;
     margin: 0 auto;
     font-feature-settings: "palt";
-    letter-spacing: 100;
+
 
 
 }
@@ -73,6 +73,7 @@ gap: 54px;
 .midashi p.text2 {
     font-size: 82px;
     padding: 60px 0 25px 0;
+    letter-spacing: 0.1em;
  }
 
  .midashi p.text3 {
@@ -105,6 +106,7 @@ gap: 54px;
  .aboutus ul li.text1 {
     font-size: 40px;
     padding: 20px 0;
+    letter-spacing: 0.1em;
  }
 
  .aboutus ul li.text2 {
@@ -116,7 +118,7 @@ gap: 54px;
    display: flex;
    justify-content: space-between;
    padding-bottom: 10px;
-   text-align: center;
+   text-align: left;
    gap: 30px;
  }
 
@@ -141,7 +143,9 @@ color:red;
 font-size: 38px;
 position: relative;
 top:-15px;
-left: -80px;
+padding-left: 10px;
+text-align: left;
+line-height: 1;
 }
 
 .menu ul li.text {
@@ -358,6 +362,16 @@ transform:rotate(-45deg) ;
         top: 10px;
         transition: 0.3s;
     }
+
+    .midashi p.text2 {
+        font-size: 48px;
+        padding: 30px 0 15px 0;
+  
+     }
+
+     .aboutus ul li.text1 {
+        font-size: 24px;
+     }
     
     .sp_btn span::before,
     .sp_btn span::after {
@@ -442,10 +456,12 @@ background: transparent;
         font-size: 1em;
         border: 3px solid #4f260b;
         gap: 1.5em;
-        white-space: nowrap; /* 横幅のMAXに達しても改行しない */
-        overflow: hidden; /* 溢れた部分を隠す */
-        text-overflow: ellipsis; /* 「…」と省略 */
         margin: 0 30px 0 30px;
+
+    }
+
+    .event div {
+        width: 100%;
 
     }
 
@@ -454,6 +470,14 @@ background: transparent;
    
     .event ul {
         flex-direction: column;
+        padding: 0.5em;
+    }
+
+    .event ul li {
+        flex-direction: column;
+        white-space: nowrap; /* 横幅のMAXに達しても改行しない */
+        overflow: hidden; /* 溢れた部分を隠す */
+        text-overflow: ellipsis; /* 「…」と省略 */
     }
 
     iframe{
@@ -487,7 +511,7 @@ background: transparent;
 
 .aboutus {
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
  }
 
 
@@ -503,6 +527,8 @@ background: transparent;
     order: -1;
     padding-top: 60px;
     padding-bottom: 25px;
+    width: 100%;
+    text-align: center;
 
  }
 
@@ -534,7 +560,7 @@ background: transparent;
 
 
 .foot img {
-    width: 60%;
+    width: 40%;
     padding: 2em 0;
 }
 
@@ -563,9 +589,12 @@ background: transparent;
   padding: 1em;
  }
 
-.aboutus ul li.text2 {
+.aboutus ul li.text2,
+.aboutus ul li.text1 {
   margin: 0 30px 0 30px;
 }
+
+
 
  .midashi p.text3 {
     font-size: 16px;
@@ -573,7 +602,17 @@ background: transparent;
 
 
  .menu ul li.text {
-    padding: 0 30px 0 30px;
+    padding:0;
     }    
+
+    .menu .item ul li.img img{
+
+        width: 100%;
+    
+    
+    }
+.menu .item{
+    padding: 0 30px;
+}
 
 }
